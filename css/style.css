@@ -1,0 +1,44 @@
+body{
+	background: #BEBEBE;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	width: 80%;
+	height:auto;
+	margin:auto;
+}
+
+#container{
+	width:640px;
+	height:640px;	
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+	border: 10px solid;
+	border-radius: 10px;
+}
+
+button{
+	width: 200px;
+	height: auto;
+	padding: 12px;
+	font-size: 16px;
+	background-color: #008EFF;
+	font-weight: 600;
+	color: #ffffff;
+	border-radius: 8px;
+	border: 2px solid #004DFF;
+	cursor: pointer;
+}
+
+button:hover{
+		color: #008EFF;
+		background-color: #ffffff;
+
+}
+
+.square{
+	display: inline-block;
+	margin: 0px;
+	float: left;
+	background: white;
+}
